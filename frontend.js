@@ -22,6 +22,6 @@ jQuery('document').ready(function(){
 		}
 	});
 	jQuery('#td').on('click',function(){
-		window.open('https:/bomzhi.cf/katalog/');
+		window.open('katalog/');
 	})
 });
