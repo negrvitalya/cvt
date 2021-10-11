@@ -21,7 +21,7 @@ jQuery('document').ready(function(){
 			jQuery('#suck0').append('<img src="'+arrimg[0]+'" width="1200px" height="200px" id="negrvitalya"/>')
 		}
 	});
-	jQuery('#td').on('click',function(){
+	jQuery('#kt').on('click',function(){
 		window.open('katalog/');
 	})
 });
