@@ -1,5 +1,5 @@
 jQuery('document').ready(function(){
-    var debug=true;
+    var debug=false;
     if(debug==false){
     alert('если у тебя проблемы с сердцем - уходи отсюда\n8==D');}
     function scream(){
