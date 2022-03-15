@@ -16,23 +16,23 @@ jQuery('document').ready(function(){
         }else if(count==9){
             ind+=1
             jQuery('#gov').attr('src','image/'+img[ind]);
-            jQuery('#log').html('Нужно постараться')
+            jQuery('#log').html('Нужно ПРОДРИСТАТЬСЯ!!!!!')
         }else if(count==13){
             ind+=1
             jQuery('#gov').attr('src','image/'+img[ind]);
-            jQuery('#log').html('Хорошо! Но это не повод останавливаться!')
+            jQuery('#log').html('Чудесно!')
         }else if(count==25){
             ind+=1
             jQuery('#gov').attr('src','image/'+img[ind]);
-            jQuery('#log').html('Вот это, конечно, навалили! Можно ещё немножко')
+            jQuery('#log').html('Вот это, конечно, навалили!')
         }else if(count==40){
             ind+=1
             jQuery('#gov').attr('src','image/'+img[ind]);
-            jQuery('#log').html('Отлично! Но осталось убраться и подтереться')
+            jQuery('#log').html('Отлично!')
         }else if(count==50){
             ind+=1
             jQuery('#gov').attr('src','image/'+img[ind]);
-            jQuery('#log').html('Хорошо всё то,что хорошо кончается.')
+            jQuery('#log').html('Хорошо всё то,что хорошо обсирается.')
             jQuery('#act').hide(1000);
             jQuery('body').append('<div id="sub"><p>хочешь ещё немножко подристать?</p><button class="shit">да</button><button class="shit">нет</button></div>')
             jQuery('#sub').on('click',function(){
